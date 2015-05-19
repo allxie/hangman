@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Angular Thing</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular.min.js"></script>
+</head>
+<body ng-app> <!-- ng-app makes everything in this section part of our "live view" -->
+<!-- 
+	{{x}} + {{y}} = {{x+y}} -->
+
+<!-- <span ng-bind="answer"> </span> --><!-- 
+	And then we can divide {{answer}} by 2 = {{answer/2 | number}} -->
+	<p>
+		<form>
+			<input type="text" ng-model ="x" placeholder="Enter a value">
+			<input type="text" ng-model ="y" placeholder="Enter a value">
+		</form>
+	</p>
+	
+	<div ng-style="myStyle">
+	Text color is: <span ng-style="{ color: textColor }"><h1>{{textColor}}</h1></span>
+        
+    </div>
+		<input type="text" ng-model="textColor" placeholder="Enter a color">
+
+	
+
+	<div ng-bind="name greeting">
+		<div>Here's a greeting!
+		{{greeting}}, {{name}}</div>
+
+	</div>
+
+	<form>
+		<input type="text" ng-model="greeting" placeholder="Enter a greeting">
+		<input type="text" ng-model="name" placeholder="Enter a name">
+	</form>
+
+	<div ng-app>
+  <div  ng-init="friends={{'larry':'hairy'}, {'moe':'foe'}, {'curly':'burley'}}">
+    <div ng-repeat="friend in friends"> <!-- The loop will start here and include this div -->
+     {{friend}}
+    </div> <!-- The loop will end here and include this closing tag. -->
+  </div>
+</div>
+	
+</body>
+</html>
