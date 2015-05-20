@@ -18,26 +18,24 @@
 		h1{
 			font-family: courier;
 		}
+		span{
+			padding: 0px;
+			margin: 0px;
+		}
 	</style>
+	<script src="https://code.jquery.com/jquery-1.11.2.min.js"> </script>
 </head>
 <body ng-app>
   <div ng-controller="HangManCtrl">
-  	<!-- {{currentWord}} -->
-
-		Hidden Word:
-		<br>
   	<span ng-repeat="charl in hiddenCharls track by $index">
   		 {{charl}}
 	</span>
-	<h1>{{win}} {{lose}}
-		{{lArm}}{{head}}{{rArm}}
-		{{bod}}{{lLeg}}{{rLeg}}
-<br> &nbsp;&nbsp;____
-<br> &nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|
-<br> \0/&nbsp;&nbsp;&nbsp;|
-<br> &nbsp;| &nbsp;&nbsp;&nbsp;|
-<br> /&nbsp;\&nbsp;&nbsp;_|_
-<br> &nbsp;&nbsp;&nbsp;&nbsp;|___|
+	<h1>
+		{{win}} {{lose}}
+ 	</h1>
+ 	<h1>
+ 		<span id="hangDraw">
+		</span>
 	</h1>
 	<br>
 	<br>
