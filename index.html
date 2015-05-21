@@ -2,14 +2,14 @@
 <html lang="en">
 <head>
 
-<!--   
+<!--
   ____
  |    |
 \0/   |
  |    |
 / \  _|_
-    |___| 
--->	
+    |___|
+-->
 	<meta charset="UTF-8">
 	<title>Hangman</title>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.14/angular.min.js"></script>
@@ -39,12 +39,9 @@
 	</h1>
 	<br>
 	<br>
-<!--   	<span ng-repeat="char in displayChars() track by $index">
-  		{{char}}
-  	</span>
- -->
+
   	<form ng-submit="addWord()">
-  		<input type="password" name="newWord" ng-model="newWord" placeholder="Enter a new word"> 
+  		<input type="password" name="newWord" ng-model="newWord" placeholder="Enter a new word">
   		<br>
   		<button> Add Word </button>
   	</form>

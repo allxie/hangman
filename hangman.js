@@ -29,26 +29,18 @@ var HangManCtrl = function($scope) {
           break;
       case 1:
           $("#hangDraw").html("<br>&nbsp;&nbsp;____<br>&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|<br>&nbsp;0&nbsp;&nbsp;&nbsp;&nbsp;|<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_|_<br>&nbsp;&nbsp;&nbsp;&nbsp;|___|");
-          //$("#head").html("0");
           break;
       case 2:
           $("#hangDraw").html("<br>&nbsp;&nbsp;____<br>&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|<br>\\0&nbsp;&nbsp;&nbsp;&nbsp;|<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_|_<br>&nbsp;&nbsp;&nbsp;&nbsp;|___|");
-
-          //$("#rArm").html("/");
           break;
       case 3:
           $("#hangDraw").html("<br>&nbsp;&nbsp;____<br>&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|<br>\\0/&nbsp;&nbsp;&nbsp;|<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_|_<br>&nbsp;&nbsp;&nbsp;&nbsp;|___|");
-          
-          //$("#lArm").html("\\");
           break;
       case 4:
           $("#hangDraw").html("<br>&nbsp;&nbsp;____<br>&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|<br>\\0/&nbsp;&nbsp;&nbsp;|<br>&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_|_<br>&nbsp;&nbsp;&nbsp;&nbsp;|___|");
-          //$("#bod").html("|");
           break;
       case 5:
           $("#hangDraw").html("<br>&nbsp;&nbsp;____<br>&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|<br>\\0/&nbsp;&nbsp;&nbsp;|<br>&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|<br>/&nbsp;&nbsp;&nbsp;&nbsp;_|_<br>&nbsp;&nbsp;&nbsp;&nbsp;|___|");
-
-          //$("#lLeg").html("/");
           break;
       case 6:
           $("#hangDraw").html("<br>&nbsp;&nbsp;____<br>&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|<br>\\0/&nbsp;&nbsp;&nbsp;|<br>&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|<br>/&nbsp;\\&nbsp;&nbsp;_|_<br>&nbsp;&nbsp;&nbsp;&nbsp;|___|");
